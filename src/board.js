@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './square';
-import calculateWinner from './utils';
+import calculateWinner from './utils.ts';
 
 class Board extends React.Component {
     constructor(props) {
